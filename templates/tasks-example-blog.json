@@ -1,0 +1,65 @@
+{
+  "project": "示例：个人博客系统",
+  "description": "一个简单的Markdown博客系统",
+  "total_tasks": 5,
+  "completed": 0,
+  "in_progress": 0,
+  "pending": 5,
+  "tasks": [
+    {
+      "id": 1,
+      "title": "项目初始化",
+      "description": "创建项目目录，初始化Git，安装基础依赖",
+      "status": "pending",
+      "priority": "high",
+      "estimated_hours": 0.5,
+      "created_at": "2026-03-20",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "title": "设计数据库",
+      "description": "设计文章表、分类表的数据库Schema",
+      "status": "pending",
+      "priority": "high",
+      "estimated_hours": 1,
+      "created_at": "2026-03-20",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "title": "文章CRUD API",
+      "description": "实现文章的增删改查接口",
+      "status": "pending",
+      "priority": "high",
+      "estimated_hours": 2,
+      "created_at": "2026-03-20",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "title": "前端页面",
+      "description": "创建文章列表页、详情页、编辑页",
+      "status": "pending",
+      "priority": "medium",
+      "estimated_hours": 3,
+      "created_at": "2026-03-20",
+      "completed_at": null,
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "title": "Markdown渲染",
+      "description": "集成Markdown编辑器，实现文章渲染",
+      "status": "pending",
+      "priority": "medium",
+      "estimated_hours": 1.5,
+      "created_at": "2026-03-20",
+      "completed_at": null,
+      "notes": ""
+    }
+  ]
+}

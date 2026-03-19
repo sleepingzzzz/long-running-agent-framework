@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "framework_name": "Long Running Agent Framework",
+  "created_at": "2026-03-20",
+  "project_name": "ai-comic-generator",
+  "project_description": "AI漫剧生成工具 - 一句话生成长视频",
+  "project_path": "projects/ai-comic-generator",
+  "settings": {
+    "auto_commit": true,
+    "commit_message_template": "[Task {task_id}] {task_title}",
+    "max_retries": 3,
+    "context_reset_interval": 1,
+    "notification_on_complete": true,
+    "notification_on_error": true,
+    "human_intervention_on": ["database_setup", "api_key_required", "external_service"]
+  },
+  "models": {
+    "primary": "default",
+    "fallback": null
+  },
+  "tools": {
+    "enabled": [
+      "read",
+      "write",
+      "edit",
+      "exec",
+      "browser",
+      "web_search",
+      "web_fetch",
+      "sessions_spawn"
+    ]
+  },
+  "paths": {
+    "workspace": "${LRAF_WORKSPACE}",
+    "projects": "E:\\code\\long-running-agent-framework\\projects",
+    "logs": "E:\\code\\long-running-agent-framework\\logs",
+    "tasks": "E:\\code\\long-running-agent-framework\\tasks.json",
+    "progress": "E:\\code\\long-running-agent-framework\\progress.txt",
+    "work_spec": "E:\\code\\long-running-agent-framework\\WORK_SPEC.md"
+  }
+}

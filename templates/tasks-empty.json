@@ -1,0 +1,9 @@
+{
+  "project": "你的项目名称",
+  "description": "项目描述",
+  "total_tasks": 0,
+  "completed": 0,
+  "in_progress": 0,
+  "pending": 0,
+  "tasks": []
+}
