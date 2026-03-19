@@ -12,6 +12,8 @@
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-green?logo=node.js)](https://nodejs.org/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)](https://python.org/)
 
+**English | [中文](README.zh.md)**
+
 [📖 Documentation](https://github.com/sleepingzzzz/long-running-agent-framework/wiki) • 
 [🚀 Quick Start](#quick-start) • 
 [💡 Examples](EXAMPLES.md) • 
